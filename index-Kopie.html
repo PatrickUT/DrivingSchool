@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Fahrschule</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+  <link href="css/scrolling-nav.css" rel="stylesheet">
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <!-- FONT AWESOME -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- W3.CSS -->
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+
+  <style>
+    @import url('https://fonts.googleapis.com/css?family=Nunito:600');
+    @import url('https://fonts.googleapis.com/css?family=Nunito:300,400');
+    @import url('https://fonts.googleapis.com/css?family=Nunito:700');
+
+
+
+
+    * {
+      margin: 0px;
+      padding: 0px;
+    }
+
+    body {
+      background-color: #e0e0e0;
+      width: auto;
+    }
+
+    .navbar {
+      background-color: white;
+    }
+
+
+    .navbar-nav li a {
+      margin-top: 1vh;
+      font-family: Nunito;
+      color: #246ec1;
+      font-weight: 600;
+      background-color: white;
+    }
+
+
+
+
+    .nav>li>a:hover,
+    .nav>li>a:focus {
+      background-color: transparent;
+    }
+
+
+
+
+    .navbar-brand {
+      margin-top: 1vh;
+      font-family: Nunito;
+      text-transform: uppercase;
+      font-weight: 800;
+      font-size: 20px;
+    }
+
+
+
+    #nav-item {
+      background: white;
+    }
+
+
+    .img-header {
+      height: 100vh;
+      width: 100vw;
+      position: relative;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      pointer-events: none;
+    }
+
+    #klassen {
+      margin-top: 40px;
+      width: 50vw;
+      box-shadow: 0px 4px 8px #999999;
+      width: 50%;
+      margin: 0 auto;
+    }
+
+
+    #klasse_style {
+      font-family: 'Nunito';
+      font-weight: 600;
+      color: #246ec1;
+      font-size: 14px;
+    }
+
+    #impressum {
+      background-color: white;
+      height: auto;
+      width: 100%;
+      height: 200px;
+      font-family: 'Nunito';
+    }
+
+    #impress {
+      margin-top: 50px;
+    }
+
+    .flex-container {
+      display: flex;
+      justify-content: center;
+    }
+
+    #banner {
+      display: flex;
+      justify-content: center;
+    }
+
+   
+  </style>
+
+
+
+</head>
+
+<body id="page-top" data-spy="scroll" data-target="navbar-fixed-top">
+
+  <!-- NAVBAR -->
+
+  <nav class="navbar navbar-light navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <a class="navbar-brand page-scroll" style="color: #246ec1;" href="#page-top">FAHRSCHULE <span style="color: red">O</span>VERKämping</a>
+        </a>
+      </div>
+      <ul class="nav navbar-nav navbar-right">
+        <li id="nav-item"><a class="page-scroll" href="#about">Über uns</a></li>
+        <li id="nav-item"><a class="page-scroll" href="#kontakt">Kontakt</a></li>
+        <li id="nav-item"><a class="page-scroll" href="#anfahrt">Anfahrt</a></li>
+        <li id="nav-item"><a class="page-scroll" href="#angebot">Klassen</a></li>
+        <li id="nav-item"><a class="page-scroll" href="#impressum">Impressum</a></li>
+      </ul>
+
+
+    </div>
+
+  </nav>
+
+  <!-- NAVBAR END -->
+
+
+  <!-- HEADER -->
+
+  <div class="img-header flex-container" style="height: 100vh; margin: 0px;">
+
+    <img src="https://image.ibb.co/bPdWra/pic1.jpg" alt="#" id="header-img" style="height: 100vh; width: 100vw; -webkit-filter: grayscale(100%) brightness(0.2); pointer-events: none;">
+
+    <h1 style= "position: absolute; top:300px; left: auto; color: white; text-transform: uppercase; font-weight: 800;
+        font-family: 'Nunito'; font-size: 50px; pointer-events: none;">Wir bringen unser Dorf ins Rollen!</h1>
+
+  </div>
+
+  <!-- ABOUT -->
+
+  <section style="height: auto; width: 100vw; background-color: #e0e0e0; margin-bottom: 0px;">
+
+    <div class="well" style="margin: 0px; background-color: white; border: white;">
+      <h2 style="margin-left:20vw; margin-right: 20vw; font-family: 'Nunito'; color: #246ec1;">Schermbeck ist unser Ort - hier leben und arbeiten wir ausgesprochen gerne. Wir versprechen Dir, das spürt man auch.</h2>
+
+      <p style="color:black; font-family: 'Nunito'; margin-left: 10vw; margin-right: 10vw; text-align: justify; padding-top: 15px; font-weight: 400; text-align:150%;">Es ist toll zu sehen, dass meine Schüler häufig die Kinder der ehemaligen Schüler meines Vaters sind. Das ist eine
+        schöne Bestätigung für unsere Arbeit seit 1977.  Selbstverständlich haben wir als Dorffahrschule dennoch den ständigen
+        inhaltlichen und formalen Wandel mitvollzogen. Aber im Zentrum stand und steht immer der Schüler. Du bekommst keine
+        Ausbildung nach Schablone – wir arbeiten mit Dir und für Dich, um gemeinsam ans Ziel zu kommen. Auf unserer Internetseite
+        hast Du die Möglichkeit etwas über uns und unser Angebot zu erfahren. Du kannst aber auch gerne einmal zu einem kostenlosen
+        Schnupper-Unterricht kommen und schauen, ob Dir der Unterricht gefällt und “die Chemie“ mit dem Fahrlehrer stimmt.
+        Oder sprich mit ehemaligen oder derzeitigen Fahrschülern, warum sie sich für uns entschieden haben. Sicherlich sind
+        die Ausbildungspreise ein wichtiger Faktor – deswegen haben wir Dir hier auch ein Beispiel durchgerechnet - , aber
+        entscheidend sollten auch eine zielorientierte Ausbildung, ein interessanter Unterricht und Vertrauen zum Fahrlehrer
+        sein – du kaufst ja keinen Führerschein, sondern möchtest etwas lernen. Und Spaß darf das Ganze auch machen, dann
+        lernt es sich umso leichter. Viel Freude beim Surfen – wir sehen uns hoffentlich zum Fahren. <br><br> - Marc Overkämping </p>
+
+    </div>
+
+  </section>
+
+  <!-- UNSER TEAM -->
+
+  <section style="margin:0px; position: relative; height:600px; background-color: #f2f2f2;" id="about">
+    <h2 style="color: #246ec1; text-align: center; font-size: 40px; margin-bottom: 40px; margin-top: 0px; font-weight: 600; font-family: 'Nunito'; padding-top: 30px; ">Unser Team</h2>
+
+    <div class="row">
+      <div class="col-md-4">
+        <img src="https://image.ibb.co/by66Pv/marc3.png" alt="D" class="img-thumbnail" style="width: 300px; height: 300px; margin-left: 5vw; box-shadow: 0px 4px 8px #999999;">
+
+        <h6 style="color: #246ec1; text-align: center; font-size: 30px; margin-bottom: 50px; margin-top: 20px; margin-left: 10px; 
+            font-weight: 600; font-family: 'Nunito' ">Marc</h6>
+        <br>
+        <p style="color: black; position: absolute; bottom: -15px; left: 80px; width: 300px; font-family: 'Nunito'; font-weight: 400; text-align: justify;">Mark begleitet dich durch Fahrstunden und den theoretischen Unterricht, bis hin zu deinem Führerschein.
+        </p>
+      </div>
+
+      <div class="col-md-4">
+        <img src="https://image.ibb.co/jmTxWa/frau.png" alt="D" class="img-thumbnail" style="width: 300px; height: 300px; margin-left: 5vw;  box-shadow: 0px 4px 8px #999999;">
+
+        <h6 style="color: #246ec1; text-align: center; font-size: 30px; margin-bottom: 50px; margin-top: 20px; margin-left: 20px; 
+            font-weight: 600; font-family: 'Nunito'">Caesryn</h6>
+        <br>
+        <p style="color: black; position: absolute; bottom: -15px; left: 80px; width: 300px; font-family: 'Nunito'; font-weight: 400; text-align: justify;">Caesryn hat das Büro im Griff. Vom ersten Kontakt bis zur Theorieprüfung ist sie es, die für Dich da ist.</p>
+
+      </div>
+
+      <div class="col-md-4">
+        <img src="https://image.ibb.co/eLLNxF/sascha3.png" alt="D" class="img-thumbnail" style="width: 300px; height: 300px; margin-left: 5vw;  box-shadow: 0px 4px 8px #999999;">
+
+        <h6 style="color: #246ec1; text-align: center; font-size: 30px; margin-bottom: 50px; margin-top: 20px; margin-left: 10px; 
+            font-weight: 600; font-family: 'Nunito'">Sascha</h6>
+        <br>
+        <p style="color: black; position: absolute; bottom: -35px; left: 80px; width: 300px; font-family: 'Nunito'; font-weight: 400; text-align: justify;">Bei Sascha spürt man die Identifikation mit der Fahrschule, er steckt viel Herzblut in die Ausbildung und ist unser
+          Fachmann für die Zweiradausbildung.</p>
+
+
+      </div>
+
+    </div>
+
+
+  </section>
+
+  <!-- KONTAKT -->
+
+  <section style="height: 520px; width:100vw; background-color: #246ec1; position: relative;" id="kontakt">
+
+
+    <h1 style="color: white; font-family: 'Nunito'; text-align: center; 
+font-weight: 800; padding: 80px; padding-bottom: 50px; padding-left: 60px;font-size: 40px; margin: 0px;">Nimm Kontakt zu uns auf...</h1>
+
+
+
+    <div class="form-group row" style="margin-left: 20vw; margin-top: 0px; margin-bottom: 0px;">
+      <div class="col-xs-3" style="color: white; font-family: 'Nunito';">
+        <label for="ex1" style="margin-left: 0px;">Name:</label>
+        <input class="form-control" id="ex1" type="text" style="border: none;">   </div>
+
+      <div class="col-xs-3" style="color: white; font-family: 'Nunito';">
+        <label for="ex2" style="margin-left: 0px;">Email:</label>
+        <input class="form-control" id="ex2" type="email" style="border: none;">   </div>
+
+      <div class="col-xs-3" style="color: white; font-family: 'Nunito';">
+        <label for="ex3" style="margin-left: 0px;">Telefon:</label>
+        <input class="form-control" id="ex3" type="number" style="border: none;">   </div>
+    </div>
+
+    <div class="form-group row" style="margin-left: 20vw; margin-top: -50px;">
+      <div class="col-xs-9" style="color: white; font-family: 'Nunito';">
+        <label for="dd">Nachricht:</label>
+        <textarea class="form-control" rows="5" id="nachricht" style="border: none;"></textarea>
+      </div>
+    </div>
+
+    <button type="submit" class="btn btn-default btn-lg" style="margin-left: 21vw; font-family: 'Nunito'; color: #246ec1; border: none; ">Senden</button>
+    </div>
+  </section>
+
+  <!-- ANFAHRT -->
+
+  <section style="height: 580px; width:100vw; background-color: white; position: relative; margin-top: 0px !important;" id="anfahrt">
+
+
+    <div id="map" style="width:100%;height:580px;"></div>
+
+    <script>
+      function myMap() {
+        var myCenter = new google.maps.LatLng(51.693951, 6.872477);
+        var mapCanvas = document.getElementById("map");
+        var mapOptions = { center: myCenter, zoom: 16 };
+        var map = new google.maps.Map(mapCanvas, mapOptions);
+        var marker = new google.maps.Marker({ position: myCenter });
+        marker.setMap(map);
+
+
+        var contentString = "Mittelstraße 55, 46514 Schermbeck";
+        var infowindow = new google.maps.InfoWindow();
+        infowindow.setContent(contentString);
+        infowindow.open(map, marker);
+      }
+    </script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAIZEuYTiv-CJ9yW_tY4ARWzevmF2IEPkU&callback=myMap"></script>
+
+
+
+  </section>
+
+  <!-- KLASSEN -->
+
+  <section style="height: 580px; width:100vw; background-color: white; position: relative;" id="angebot">
+
+
+    <h2 style="color: #246ec1; text-align: center; font-size: 40px; margin-bottom: 40px; margin-top: 0px;
+     font-weight: 600; font-family: 'Nunito'; padding-top: 50px;">Unser Angebot</h2>
+
+    <div id="klassen" style="margin-top: 50px;">
+
+      <div class="panel-group" id="accordion">
+        <div class="panel panel-default" id="panels">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a id="klasse_style" data-toggle="collapse" data-parent="#accordion" href="#collapse1">KLASSE: AM</a>
+            </h4>
+          </div>
+          <div id="collapse1" class="panel-collapse collapse">
+            <div class="panel-body">Zwei- und dreirädrige Kleinkrafträder sowie vierrädrige Leichtkraftfahrzeuge bis 50ccm, max. 45km/h bbH. 4 kW</div>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a id="klasse_style" data-toggle="collapse" data-parent="#accordion" href="#collapse2">KLASSE: A1</a>
+            </h4>
+          </div>
+          <div id="collapse2" class="panel-collapse collapse">
+            <div class="panel-body">Leichtkrafträder bis 125 ccm, bis 11 kW mit einem Verhältnis von Leistung/Gewicht bis zu 0,1kW/kg Dreirädrige
+              Kraftfahrzeuge mit einer Leistung von bis zu 15 kW. PREISE
+            </div>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a id="klasse_style" data-toggle="collapse" data-parent="#accordion" href="#collapse3">KLASSE: A2</a>
+            </h4>
+          </div>
+          <div id="collapse3" class="panel-collapse collapse">
+            <div class="panel-body">Krafträder bis 35 kW mit einem Verhältnis von Leistung/Gewicht bis zu 0,2 kW/kg.</div>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a id="klasse_style" data-toggle="collapse" data-parent="#accordion" href="#collapse4">KLASSE: A</a>
+            </h4>
+          </div>
+          <div id="collapse4" class="panel-collapse collapse">
+            <div class="panel-body">Krafträder ohne Leistungsbeschränkung Dreirädrige Kraftfahrzeuge ohne Leistungsbeschränkung.</div>
+          </div>
+        </div>
+
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a id="klasse_style" data-toggle="collapse" data-parent="#accordion" href="#collapse5">KLASSE: B</a>
+            </h4>
+          </div>
+          <div id="collapse5" class="panel-collapse collapse">
+            <div class="panel-body">KFZ bis 3,5t zGM bis 9 Sitzplätze, auch mit Anhänger bis 750kg zGM Bei Mitführen schwerer Anhänger kommt es auf
+              die zGM der Kombination an: bis 3,5t zGM Kombinationsgewicht genügt Kl.B Bis 4,25t zGM Kombianationsgewicht
+              ist eine Fahrerschulung zu absolvieren, die im Führerschein durch die Schlüsselzahl B96 dokumentiert wird.</div>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a id="klasse_style" data-toggle="collapse" data-parent="#accordion" href="#collapse6">KLASSE: BE</a>
+            </h4>
+          </div>
+          <div id="collapse6" class="panel-collapse collapse">
+            <div class="panel-body">Kombinationen aus einem Kfz der Klasse B und einem Anhänger bis 3,5 zGM.</div>
+          </div>
+        </div>
+
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a id="klasse_style" data-toggle="collapse" data-parent="#accordion" href="#collapse7">KLASSE: MO</a>
+            </h4>
+          </div>
+          <div id="collapse7" class="panel-collapse collapse">
+            <div class="panel-body">Einspurige, einsitzige Fahrräder mit Hilfsmotor - auch ohne Tretkurbeln -, wenn ihre Bauart Gewähr dafür bietet,
+              dass die Höchstgeschwindigkeit auf ebener Bahn nicht mehr als 25 km/h beträgt</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+
+  </section>
+
+
+  <!-- VOLKSBANK BANNER -->
+
+  <section id="banner" style="position: relative;">
+
+    <img src="https://image.ibb.co/jEFcWa/banner.jpg" style="width: 100%; -webkit-filter: brightness(0.4); position: relative; pointer-events: none;">
+
+    <h4 style="position: absolute; top: 200px; text-align: center; color: white; font-family: 'Nunito'; font-weight: 300; font-size: 30px;">VR-Führerscheinsparen
+    </h4>
+
+
+    <p style="position: absolute; text-align: center; top: 250px; color: white; font-family: 'Nunito'; font-weight: 300;">Eine Aktion mit der Volksbank Schermbeck e.G.</p>
+
+  </section>
+
+  <!-- Impressum -->
+
+  <section style="margin:0px; height: 400px; background-color: white;" id="impressum">
+
+    <div class="container">
+
+      <h2 style="color: #246ec1; text-align: center; font-size: 40px; margin-bottom: 40px; margin-top: 0px; 
+font-weight: 600; font-family: 'Nunito'; padding-top: 40px;">Impressum</h2>
+
+      <div id="impress">
+
+        <div class="row">
+
+          <div class="col-md-offset-1 col-md-4">
+
+            <p style="display: block;">Inhaber: Marc Overkämping <br><br> Mittelstraße 55 <br><br> 46514 Schermbeck
+              <br><br> Telefon: 02853 / 1331 <br><br> Mail: info@fahrschule-overkaemping.de</p>
+
+          </div>
+
+          <div class="col-md-4">
+
+            <p style="display: block;"><strong>Bankverbindung:</strong> <br><br> Fahrschule Overkämping <br><br> IBAN: DE26400693630106138200
+              <br><br> BIC: GENODEM1SMB <br><br> Bank: Volksbank Schermbeck e.G.</p>
+
+          </div>
+
+          <div class="col-md-3">
+
+            <p style="display: block;">Steuernummer: 130/5095/1206 <br><br> Finanzamt Wesel <br><br> Zuständige Behörde: Strassenverkehrsamt Wesel</p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div>
+
+  </section>
+
+  <script src="js/jquery.js"></script>
+  <script src="js/jquery.easing.min.js"></script>
+  <script src="js/scrolling-nav.js"></script>
+
+</body>
